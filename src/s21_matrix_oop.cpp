@@ -255,7 +255,7 @@ S21Matrix adjoint(const S21Matrix &m) {
   }
   return res;
 }
-}  // namespace
+
 
 double S21Matrix::Determinant() const {
   if (this->rows_ != this->cols_)

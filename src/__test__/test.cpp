@@ -112,7 +112,7 @@ TEST(test_overload, equal_lvalue) {
   EXPECT_EQ(m.getRows(), 3);
   EXPECT_EQ(m.getCols(), 6);
   EXPECT_EQ(m(1, 2), 3);
-  EXPECT_EQ(m(2, 2), 3);
+  EXPECT_EQ(m(2, 2), 3) ;
 }
 
 TEST(test_overload, equal_rvalue) {

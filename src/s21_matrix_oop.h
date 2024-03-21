@@ -18,6 +18,7 @@ class S21Matrix {
   S21Matrix(S21Matrix &&other) noexcept;
   ~S21Matrix();
 
+
   int getRows() const noexcept;
   int getCols() const noexcept;
   void setRows(const int &NewRows);
